@@ -39,6 +39,11 @@ main .col-4{
     border: 2px solid darkgray;
     padding: 15px;
     margin: 5px 0;
+    transition: 1s box-shadow;
+}
+.card:hover {
+    box-shadow: 10px 10px 13px 7px rgba(166,153,166,1);
+    transition: 1s box-shadow;
 }
 .image{
     margin: 0 auto;
